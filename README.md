@@ -17,8 +17,7 @@ You can view the live demo of the project at:
 
 ## Preview
 
-![MandiBook Preview](https://sithala-sai-vamshi.github.io/MandiBook/Path/Page%201.png)
-
+![MandiBook Preview](images/Page.png)
 ## Technologies Used
 
 - **HTML**: Markup for the structure of the website.
