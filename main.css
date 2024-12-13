@@ -1,0 +1,142 @@
+:root {
+    --light-bg: #f9f9f9;
+    --light-keypad: #ffffff;
+    --light-text: #000000;
+    --dark-bg: #1e1e2c;
+    --dark-keypad: #2a2a3b;
+    --dark-text: #ffffff;
+    --primary-color: #007bff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: var(--light-bg);
+    color: var(--light-text);
+}
+
+.theme-dark {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+}
+
+.calculator {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: var(--light-keypad);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.theme-dark .calculator {
+    background-color: var(--dark-keypad);
+}
+
+.display {
+    padding: 20px;
+    font-size: 2em;
+    text-align: right;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.button {
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button.operator {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.button:hover {
+    background-color: rgba(0, 123, 255, 0.8);
+}
+
+.button:active {
+    background-color: rgba(0, 123, 255, 0.6); 
+    transform: scale(0.95);
+}
+
+.button.highlight {
+    background-color: rgba(0, 123, 255, 0.6); 
+}
+
+.theme-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    width: 60px;
+    height: 35px;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.slider::before {
+    content: '\1F31E'; 
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
+}
+
+.slider::after {
+    content: '\1F319';
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    opacity: 0;
+}
+
+input:checked + .slider {
+    background-color: #444;
+}
+
+input:checked + .slider::before {
+    opacity: 0;
+}
+
+input:checked + .slider::after {
+    opacity: 1;
+}
+
+.theme-description {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    color: var(--primary-color);
+}
