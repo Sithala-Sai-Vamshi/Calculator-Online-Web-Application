@@ -1,35 +1,33 @@
-# MandiBook
+# **Calculator Web Application**
 
-MandiBook is a clone of Amazon, providing an intuitive shopping experience with a clean, modern design and interactive elements. The project aims to replicate Amazon's functionality, including responsive layout, dynamic product display, and a user-friendly interface.
+## **Description**  
+This is a fully functional and interactive **Calculator Web Application** built using **HTML**, **CSS**, and **JavaScript**. The application provides a user-friendly interface for performing basic arithmetic operations. It also features light and dark themes, enhancing the user experience.
 
-## Features
+**Live Demo**: [Calculator Web Application](https://sithala-sai-vamshi.github.io/Calculator-Online-Web-Application/)
 
-- **Responsive Design**: The website adjusts to various screen sizes using flexbox for optimal viewing on desktops, tablets, and mobile devices.
-- **Smooth Transitions**: Interactive elements like product boxes have smooth transitions to enhance user experience.
-- **Interactive Elements**: Hover effects and tooltips provide feedback to the user for an engaging shopping experience.
-- **Dynamic Product Display**: Products are displayed dynamically using CSS and JavaScript, with links to product details and cart functionalities.
-- **Clone of Amazon**: This project is a replica of Amazon's e-commerce platform, including core functionalities and layout design.
+## **Key Features**  
+- **Basic Arithmetic Operations**: Supports addition, subtraction, multiplication, and division.  
+- **Responsive Layout**: Optimized for both desktop and mobile devices.  
+- **Interactive Design**: Buttons visually respond to user actions, providing an engaging experience.  
+- **Keyboard Support**: Users can interact with the calculator using their keyboard for efficiency.  
+- **Dynamic Display**: Real-time updates to the display as users perform operations.  
+- **Light and Dark Modes**: Toggle between light and dark themes for better usability in different lighting conditions.
 
-## Live Demo
+## **Technical Skills Demonstrated**
+- **HTML**: Structured the layout of the calculator and included semantic tags for accessibility.  
+- **CSS**: Styled the application with a modern look, including grid-based button layouts and hover effects.  
+- **JavaScript**: Implemented core functionality like number input, arithmetic logic, and display updates.
 
-You can view the live demo of the project at:
-[https://sithala-sai-vamshi.github.io/MandiBook/](https://sithala-sai-vamshi.github.io/MandiBook/)
+## **Preview**
+### **Light Mode**
+![Light Mode Preview](images/light_mode_preview.png)
 
-## Preview
+### **Dark Mode**
+![Dark Mode Preview](images/dark_mode_preview.png)
 
-![MandiBook Preview](images/Page.png)
-## Technologies Used
+*(Note: Replace the image paths above with the actual paths to your images in the repository.)*
 
-- **HTML**: Markup for the structure of the website.
-- **CSS**: Styling and layout management.
-- **JavaScript**: For interactivity and dynamic content.
-- **Font Awesome**: For scalable vector icons.
-- **Flexbox**: For responsive layout.
-
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
+## **How to Use**
+1. Clone the repository to your local system:  
    ```bash
-   git clone https://github.com/Sithala-Sai-Vamshi/MandiBook.git
+   git clone https://github.com/yourusername/calculator-web-app.git
