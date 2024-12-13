@@ -25,8 +25,6 @@ This is a fully functional and interactive **Calculator Web Application** built 
 ### **Dark Mode**
 ![Dark Mode Preview](images/dark_mode_preview.png)
 
-*(Note: Replace the image paths above with the actual paths to your images in the repository.)*
-
 ## **How to Use**
 1. Clone the repository to your local system:  
    ```bash
